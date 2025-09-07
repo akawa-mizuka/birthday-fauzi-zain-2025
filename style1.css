@@ -244,13 +244,6 @@ h1{
         transform: rotate(-40deg) translate(-3px,-3px);
     }
 }
-@keyframes string{
-    0%{
-        width: 70px;    }
-    100%{
-        width: 0px;
-    }
-}
 @keyframes fade3{
     0%{
         opacity: 1;    }
@@ -427,7 +420,7 @@ h1{
     box-shadow: #acabab 0 0 10px;
     outline-offset: 10px;
     opacity: .5;
-    animation: pulse 2s infinite, fade2 32s 1;
+    animation: pulse 2s infinite, fade5 32s 1;
 }
 body:has(.fire-toggle[open]) .fuego,
 body:has(.fire-toggle[open]) .velas> div:empty{
@@ -442,5 +435,10 @@ body:has(.fire-toggle[open]) .fire-summary{
     }
     50%{
         transform: scale(1.2);
+    }
+}
+@keyframes fade5{
+    0%, 100%{
+        visibility: hidden;
     }
 }
