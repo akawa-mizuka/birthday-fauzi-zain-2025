@@ -184,8 +184,7 @@ h1{
     flex-direction: column-reverse;
     z-index: 1;
 }
-.balloon > div:empty:is(:focus,:focus-visible,:hover,:focus-within)
-, .velas> div:empty:is(:focus,:focus-visible,:hover,:focus-within){
+.balloon > div:empty:is(:focus,:focus-visible,:hover,:focus-within){
    opacity: 0 !important;
    background: transparent !important;
    cursor: pointer;
@@ -441,4 +440,5 @@ body:has(.fire-toggle[open]) .fire-summary{
     0%, 100%{
         visibility: hidden;
     }
+
 }
