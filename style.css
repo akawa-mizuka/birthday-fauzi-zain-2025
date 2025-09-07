@@ -1,114 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&display=swap');
+/** @format */
 
-body{
-background: #262626;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
-gap: 10px;
-font-size: 1rem;
-font-weight: 600;
-overflow: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&display=swap");
+
+body {
+	background: #262626;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 10px;
+	font-size: 1rem;
+	font-weight: 600;
+	overflow: hidden;
 }
-.login{
-background: white;
-height: fit-content;
-text-align: center;
-padding: 1rem 2rem;
-border-radius: 5px;
-font-family: caveat;
+.login {
+	background: white;
+	height: fit-content;
+	text-align: center;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	font-family: caveat;
 }
-.login-btn{
-display:flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap: 15px;
+.login-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
 }
-button{
-cursor: pointer;
-background: #A7B2F2;
-color: #262626;
-text-align: center;
-box-shadow: 0 4px #585858;
-border-radius: 5px;
-border: none;
-padding: 5px 10px;
-font-family: caveat brush;
+button {
+	cursor: pointer;
+	background: #a7b2f2;
+	color: #262626;
+	text-align: center;
+	box-shadow: 0 4px #585858;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 10px;
+	font-family: caveat brush;
 }
 button:active {
-  box-shadow: 0 2px #585858;
-  transform: translateY(4px);
+	box-shadow: 0 2px #585858;
+	transform: translateY(4px);
 }
-.back-btn button{
-  background: #DE2C2A;
-  color: #161616;
+.back-btn button {
+	background: #de2c2a;
+	color: #161616;
 }
 
 /* page 12 */
 
-.music-box{
-  background: white;
-height: fit-content;
-text-align: center;
-padding: 1rem 2rem;
-border-radius: 5px;
-font-family: caveat;
-display: flex;
-flex-direction: row;
+.music-box {
+	background: white;
+	height: fit-content;
+	text-align: center;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	font-family: caveat;
+	display: flex;
+	flex-direction: column;
 }
-.list-music{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.list-music {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* page 13 */
 
-.bulb{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 10px;
+.bulb {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
 }
-.bulb-circle{
-width: 30px;
-aspect-ratio: 1;
-color: #f06d21;
-font-size: 2rem;
-font-family: caveat;
-transform: 
-translate(2px,18px)
-rotate(160deg);
-position: absolute;
-opacity: 0.5;
+.bulb-circle {
+	width: 30px;
+	aspect-ratio: 1;
+	color: #f06d21;
+	font-size: 2rem;
+	font-family: caveat;
+	transform: translate(2px, 18px) rotate(160deg);
+	position: absolute;
+	opacity: 0.5;
 }
-.bulb-box{
-width: 50px;
-aspect-ratio: 1;
-background: #f7ecdd;
-border-radius: 50%;
-border-bottom-left-radius: 5px;
-transform: rotate(-45deg);
-opacity: 0.7;
+.bulb-box {
+	width: 50px;
+	aspect-ratio: 1;
+	background: #f7ecdd;
+	border-radius: 50%;
+	border-bottom-left-radius: 5px;
+	transform: rotate(-45deg);
+	opacity: 0.7;
 }
-.bulb-box1{
-width: 24px;
-height: 15px;
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
-background: #d4cec4;
-transform: translateY(-2px);
-z-index: 1;
+.bulb-box1 {
+	width: 24px;
+	height: 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #d4cec4;
+	transform: translateY(-2px);
+	z-index: 1;
 }
-.lamp-btn button{
-background: none;
-box-shadow: none;
-color: #aaa8a8;
-font-size: 1.3rem;
-margin: 10px;
+.lamp-btn button {
+	background: none;
+	box-shadow: none;
+	color: #aaa8a8;
+	font-size: 1.3rem;
+	margin: 10px;
 }
