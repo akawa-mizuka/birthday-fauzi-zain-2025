@@ -438,7 +438,8 @@ body:has(.fire-toggle[open]) .fire-summary{
 }
 @keyframes fade5{
     0%, 100%{
-        visibility: hidden;
+        display:none;
     }
 
 }
+
